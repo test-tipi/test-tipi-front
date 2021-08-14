@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  pingPongAction : 'http://localhost:8080/ping-pong/',
+  createPersonAction : 'http://localhost:8080/person/insert/',
+  updatePersonACtion : 'http://localhost:8080/person/update/',
+  deletePersonAction : 'http://localhost:8080/person/delete/',
+  searchPersonAction : 'http://localhost:8080/person/select/'
 };
 
 /*
